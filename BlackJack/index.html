@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>BlackJack</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <h1>Blackjack Game</h1> 
+        <h2>Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img id="hidden" src="./cards/Back.png">
+        </div>
+
+        <h2>You: <span id="your-sum"></span></h2>
+        <div id="your-cards"></div>
+
+        <br>
+        <button id="hit">Hit</button>
+        <button id="stay">Stay</button>
+        <button id="restart" style="display: none;">Restart</button>
+        <button id="rules">Rules</button>
+
+        <div id="rules-panel">
+            <h3>Rules of Blackjack</h3>
+            <ul>
+                <li>The objective of this game is to get as close to 21 as possible, but without going over.</li>
+                <li>There are face cards (Called Jack, Queen and King) which are worth 10 points.</li>
+                <li>If you go over 21 points, you lose</li>
+                <li>If you go over 21 points, you lose</li>
+                <li>the dealer has a hand higher than 21, you win. </li>
+                <li>You can "hit" to take more cards, or "stay" to keep your hand.</li>
+            </ul>
+        </div>
+        <p id="results"></p>
+    </body>
+</html>
