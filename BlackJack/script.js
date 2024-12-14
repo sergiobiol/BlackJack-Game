@@ -124,7 +124,7 @@ function restartGame() {
     document.getElementById("dealer-sum").innerText = "";
     document.getElementById("your-sum").innerText = "";
     document.getElementById("results").innerText = "";
-    document.getElementById("dealer-cards").innerHTML = '<img id="hidden" src="./cards/Back.png">';
+    document.getElementById("dealer-cards").innerHTML = '<img id="hidden" src="./cards/back.png">';
     document.getElementById("your-cards").innerHTML = "";
 
     document.getElementById("restart").style.display = "none";
